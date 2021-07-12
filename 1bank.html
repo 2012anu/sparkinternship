@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> The Fellow-man bank</title>
+    <link href="firstpage.css" rel="stylesheet">
+    <script src="1bank.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+
+
+
+
+<body>
+    <div class="first-box">
+        <img src="fm.jpeg" alt="fm" width="70px" height="60px">
+        <h2>The fellow man bank</h2>
+        <a href="login.php"><button>Sign-in/login</button></a>
+
+    </div>
+
+    <div class="second-box">
+        <p id="p">Welcome!!</p>
+    </div>
+    <div class="third-box">
+        <!--&nbsp;&nbsp; this will give white space in webpage-->
+        <marquee behavior="" direction="">Register yourself for Doorstep banking services on 18001037188 / 18001213721 in. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Stay Home, Stay Safe!</marquee>
+    </div>
+    <!--side bar-->
+    <div class="forth-box">
+        <div id="navbar">
+            <a class="active" href="1bank.html">Home</a>
+            <a href="https://internship.thesparksfoundation.info/">About us</a>
+            <a href="contact1.html">Contact us</a>
+            <a href=""> Loan </a>
+            <a href=""> Account</a>
+            <a href=""> Deposit</a>
+            <a href=""> Transfer</a>
+            <a href=""> Credit card</a>
+            <a href="login.php">Admin</a>
+            <a href="">Pay bills</a>
+            <a href="">Insure</a>
+            <a href="">Enquiry <a>
+            
+            
+        </div>
+        <!--slideshow-->
+        <br>
+        <br>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="11.jpeg" style="width:850px" height="350px">
+
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="44.jpeg" style="width:850px" height="350px">
+
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="3.jpeg" style="width:850px" height="350px">
+
+            </div>
+
+        </div>
+        <br>
+   
+        <div style=" margin-top: 22%; margin-left: 45%;">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+<!--script for slides-->
+        <script>
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {
+                    slideIndex = 1
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+        </script>
+        <marquee class="mar" behavior="" direction="">Your Money Buddy = Loan on Credit Card. Get it RIGHT NOW. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Convert your big-ticket Credit Card purchases in easy instalments, Login to Netbanking > Cards > Transact> smart EMI
+        </marquee>
+        <footer>
+            <p>Copyright&#169; &nbsp;&nbsp;&nbsp; Anusha </p>
+
+        </footer>
+<div class="icon">
+    <!-- Add font awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+        </div>
+</body>
+
+</html>
